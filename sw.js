@@ -1,0 +1,1 @@
+self.addEventListener('install',e=>{e.waitUntil(caches.open('vocab-v1').then(c=>c.addAll(['./','./home.html','./quiz.html','./unit10.html','./styles.css','./data.js'])));});self.addEventListener('fetch',e=>{e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request)));});

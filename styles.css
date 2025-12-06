@@ -1,1 +1,8 @@
-body{}
+body{font-family:'Noto Sans TC',sans-serif;background:#f4f7ff;color:#222;margin:0;padding:18px}
+header{background:linear-gradient(90deg,#4a7bff,#6fb1ff);color:white;padding:18px 20px}
+.container{max-width:1000px;margin:18px auto;background:#fff;padding:16px;border-radius:8px;box-shadow:0 6px 18px rgba(20,20,40,0.06)}
+.units{display:flex;flex-wrap:wrap;gap:8px}
+.unit{flex:1 1 220px;border:1px solid #e6eefb;padding:12px;border-radius:8px;background:#fbfdff}
+.btn{display:inline-block;padding:8px 12px;background:#1976d2;color:white;border-radius:6px;text-decoration:none;margin:6px 4px}
+.opts .opt{display:block;margin:8px 0;padding:10px;border-radius:8px;border:1px solid #ddd;background:#fff;text-align:left}
+.prompt{margin-bottom:12px}
